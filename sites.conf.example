@@ -1,0 +1,12 @@
+# WordPress Sites Configuration for check_wordpress
+# Format: name;path;webuser;php-binary
+#
+# name        - Short identifier for the site (used as argument to check_wordpress_site.sh)
+# path        - Absolute path to the WordPress installation (where wp-config.php lives)
+# webuser     - System user that owns the WordPress files (WP-CLI runs as this user)
+# php-binary  - PHP binary to use (e.g., php, php8.2, php8.3)
+#
+# Lines starting with # are ignored.
+
+# mysite;/var/www/mysite.example.com/web;www-data;php8.3
+# blog;/var/www/blog.example.com/htdocs;web101;php8.2
